@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F82BEAF913D2697900ADC416 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82BEAF813D2697900ADC416 /* UIKit.framework */; };
+		F82BEAFB13D2697900ADC416 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82BEAFA13D2697900ADC416 /* Foundation.framework */; };
+		F82BEAFD13D2697900ADC416 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82BEAFC13D2697900ADC416 /* CoreGraphics.framework */; };
+		F82BEB0313D2697900ADC416 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F82BEB0113D2697900ADC416 /* InfoPlist.strings */; };
+		F82BEB0613D2697900ADC416 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F82BEB0513D2697900ADC416 /* main.m */; };
+		F82BEB0913D2697900ADC416 /* CYStoreExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F82BEB0813D2697900ADC416 /* CYStoreExampleAppDelegate.m */; };
+		F82BEB0C13D2697900ADC416 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F82BEB0A13D2697900ADC416 /* MainWindow.xib */; };
+		F82BEB0F13D2697900ADC416 /* CYStoreExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F82BEB0E13D2697900ADC416 /* CYStoreExampleViewController.m */; };
+		F82BEB1213D2697900ADC416 /* CYStoreExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F82BEB1013D2697900ADC416 /* CYStoreExampleViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F82BEAF413D2697900ADC416 /* CYStoreExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYStoreExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F82BEAF813D2697900ADC416 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F82BEAFA13D2697900ADC416 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F82BEAFC13D2697900ADC416 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F82BEB0013D2697900ADC416 /* CYStoreExample-Info.plist */ = {isa = PBXFileReference; path = "CYStoreExample-Info.plist"; sourceTree = "<group>"; };
+		F82BEB0213D2697900ADC416 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F82BEB0413D2697900ADC416 /* CYStoreExample-Prefix.pch */ = {isa = PBXFileReference; path = "CYStoreExample-Prefix.pch"; sourceTree = "<group>"; };
+		F82BEB0513D2697900ADC416 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F82BEB0713D2697900ADC416 /* CYStoreExampleAppDelegate.h */ = {isa = PBXFileReference; path = CYStoreExampleAppDelegate.h; sourceTree = "<group>"; };
+		F82BEB0813D2697900ADC416 /* CYStoreExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYStoreExampleAppDelegate.m; sourceTree = "<group>"; };
+		F82BEB0B13D2697900ADC416 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F82BEB0D13D2697900ADC416 /* CYStoreExampleViewController.h */ = {isa = PBXFileReference; path = CYStoreExampleViewController.h; sourceTree = "<group>"; };
+		F82BEB0E13D2697900ADC416 /* CYStoreExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYStoreExampleViewController.m; sourceTree = "<group>"; };
+		F82BEB1113D2697900ADC416 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CYStoreExampleViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F82BEAF113D2697900ADC416 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82BEAF913D2697900ADC416 /* UIKit.framework in Frameworks */,
+				F82BEAFB13D2697900ADC416 /* Foundation.framework in Frameworks */,
+				F82BEAFD13D2697900ADC416 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F82BEAE913D2697900ADC416 = {
+			isa = PBXGroup;
+			children = (
+				F82BEAFE13D2697900ADC416 /* CYStoreExample */,
+				F82BEAF713D2697900ADC416 /* Frameworks */,
+				F82BEAF513D2697900ADC416 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F82BEAF513D2697900ADC416 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F82BEAF413D2697900ADC416 /* CYStoreExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F82BEAF713D2697900ADC416 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F82BEAF813D2697900ADC416 /* UIKit.framework */,
+				F82BEAFA13D2697900ADC416 /* Foundation.framework */,
+				F82BEAFC13D2697900ADC416 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F82BEAFE13D2697900ADC416 /* CYStoreExample */ = {
+			isa = PBXGroup;
+			children = (
+				F82BEB0713D2697900ADC416 /* CYStoreExampleAppDelegate.h */,
+				F82BEB0813D2697900ADC416 /* CYStoreExampleAppDelegate.m */,
+				F82BEB0A13D2697900ADC416 /* MainWindow.xib */,
+				F82BEB0D13D2697900ADC416 /* CYStoreExampleViewController.h */,
+				F82BEB0E13D2697900ADC416 /* CYStoreExampleViewController.m */,
+				F82BEB1013D2697900ADC416 /* CYStoreExampleViewController.xib */,
+				F82BEAFF13D2697900ADC416 /* Supporting Files */,
+			);
+			path = CYStoreExample;
+			sourceTree = "<group>";
+		};
+		F82BEAFF13D2697900ADC416 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F82BEB0013D2697900ADC416 /* CYStoreExample-Info.plist */,
+				F82BEB0113D2697900ADC416 /* InfoPlist.strings */,
+				F82BEB0413D2697900ADC416 /* CYStoreExample-Prefix.pch */,
+				F82BEB0513D2697900ADC416 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F82BEAF313D2697900ADC416 /* CYStoreExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F82BEB1513D2697900ADC416 /* Build configuration list for PBXNativeTarget "CYStoreExample" */;
+			buildPhases = (
+				F82BEAF013D2697900ADC416 /* Sources */,
+				F82BEAF113D2697900ADC416 /* Frameworks */,
+				F82BEAF213D2697900ADC416 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYStoreExample;
+			productName = CYStoreExample;
+			productReference = F82BEAF413D2697900ADC416 /* CYStoreExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F82BEAEB13D2697900ADC416 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F82BEAEE13D2697900ADC416 /* Build configuration list for PBXProject "CYStoreExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F82BEAE913D2697900ADC416;
+			productRefGroup = F82BEAF513D2697900ADC416 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F82BEAF313D2697900ADC416 /* CYStoreExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F82BEAF213D2697900ADC416 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82BEB0313D2697900ADC416 /* InfoPlist.strings in Resources */,
+				F82BEB0C13D2697900ADC416 /* MainWindow.xib in Resources */,
+				F82BEB1213D2697900ADC416 /* CYStoreExampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F82BEAF013D2697900ADC416 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82BEB0613D2697900ADC416 /* main.m in Sources */,
+				F82BEB0913D2697900ADC416 /* CYStoreExampleAppDelegate.m in Sources */,
+				F82BEB0F13D2697900ADC416 /* CYStoreExampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F82BEB0113D2697900ADC416 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F82BEB0213D2697900ADC416 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F82BEB0A13D2697900ADC416 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F82BEB0B13D2697900ADC416 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F82BEB1013D2697900ADC416 /* CYStoreExampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F82BEB1113D2697900ADC416 /* en */,
+			);
+			name = CYStoreExampleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F82BEB1313D2697900ADC416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F82BEB1413D2697900ADC416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F82BEB1613D2697900ADC416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CYStoreExample/CYStoreExample-Prefix.pch";
+				INFOPLIST_FILE = "CYStoreExample/CYStoreExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F82BEB1713D2697900ADC416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CYStoreExample/CYStoreExample-Prefix.pch";
+				INFOPLIST_FILE = "CYStoreExample/CYStoreExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F82BEAEE13D2697900ADC416 /* Build configuration list for PBXProject "CYStoreExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F82BEB1313D2697900ADC416 /* Debug */,
+				F82BEB1413D2697900ADC416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F82BEB1513D2697900ADC416 /* Build configuration list for PBXNativeTarget "CYStoreExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F82BEB1613D2697900ADC416 /* Debug */,
+				F82BEB1713D2697900ADC416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F82BEAEB13D2697900ADC416 /* Project object */;
+}
