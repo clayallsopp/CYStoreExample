@@ -14,8 +14,15 @@
 		F82BEB0613D2697900ADC416 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F82BEB0513D2697900ADC416 /* main.m */; };
 		F82BEB0913D2697900ADC416 /* CYStoreExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F82BEB0813D2697900ADC416 /* CYStoreExampleAppDelegate.m */; };
 		F82BEB0C13D2697900ADC416 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F82BEB0A13D2697900ADC416 /* MainWindow.xib */; };
-		F82BEB0F13D2697900ADC416 /* CYStoreExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F82BEB0E13D2697900ADC416 /* CYStoreExampleViewController.m */; };
-		F82BEB1213D2697900ADC416 /* CYStoreExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F82BEB1013D2697900ADC416 /* CYStoreExampleViewController.xib */; };
+		F82BEB1F13D2698F00ADC416 /* CYStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F82BEB1A13D2698F00ADC416 /* CYStoreManager.m */; };
+		F82BEB2013D2698F00ADC416 /* CYStoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = F82BEB1C13D2698F00ADC416 /* CYStoreController.m */; };
+		F82BEB2113D2698F00ADC416 /* CYStoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F82BEB1E13D2698F00ADC416 /* CYStoreCell.m */; };
+		F82BEB2413D269EF00ADC416 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82BEB2313D269EF00ADC416 /* StoreKit.framework */; };
+		F82BEB2613D26A1400ADC416 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82BEB2513D26A1400ADC416 /* QuartzCore.framework */; };
+		F82BEB2D13D26AD300ADC416 /* MAConfirmButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F82BEB2A13D26AD300ADC416 /* MAConfirmButton.m */; };
+		F82BEB2E13D26AD300ADC416 /* UIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = F82BEB2C13D26AD300ADC416 /* UIColor-Expanded.m */; };
+		F82BEB3613D26AE700ADC416 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = F82BEB3213D26AE700ADC416 /* UIColor+HexString.m */; };
+		F82BEB3713D26AE700ADC416 /* SKProduct+LocalizedPrice.m in Sources */ = {isa = PBXBuildFile; fileRef = F82BEB3413D26AE700ADC416 /* SKProduct+LocalizedPrice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +30,30 @@
 		F82BEAF813D2697900ADC416 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F82BEAFA13D2697900ADC416 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F82BEAFC13D2697900ADC416 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F82BEB0013D2697900ADC416 /* CYStoreExample-Info.plist */ = {isa = PBXFileReference; path = "CYStoreExample-Info.plist"; sourceTree = "<group>"; };
+		F82BEB0013D2697900ADC416 /* CYStoreExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CYStoreExample-Info.plist"; sourceTree = "<group>"; };
 		F82BEB0213D2697900ADC416 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F82BEB0413D2697900ADC416 /* CYStoreExample-Prefix.pch */ = {isa = PBXFileReference; path = "CYStoreExample-Prefix.pch"; sourceTree = "<group>"; };
+		F82BEB0413D2697900ADC416 /* CYStoreExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CYStoreExample-Prefix.pch"; sourceTree = "<group>"; };
 		F82BEB0513D2697900ADC416 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F82BEB0713D2697900ADC416 /* CYStoreExampleAppDelegate.h */ = {isa = PBXFileReference; path = CYStoreExampleAppDelegate.h; sourceTree = "<group>"; };
+		F82BEB0713D2697900ADC416 /* CYStoreExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYStoreExampleAppDelegate.h; sourceTree = "<group>"; };
 		F82BEB0813D2697900ADC416 /* CYStoreExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYStoreExampleAppDelegate.m; sourceTree = "<group>"; };
 		F82BEB0B13D2697900ADC416 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		F82BEB0D13D2697900ADC416 /* CYStoreExampleViewController.h */ = {isa = PBXFileReference; path = CYStoreExampleViewController.h; sourceTree = "<group>"; };
-		F82BEB0E13D2697900ADC416 /* CYStoreExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYStoreExampleViewController.m; sourceTree = "<group>"; };
-		F82BEB1113D2697900ADC416 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CYStoreExampleViewController.xib; sourceTree = "<group>"; };
+		F82BEB1913D2698F00ADC416 /* CYStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYStoreManager.h; sourceTree = "<group>"; };
+		F82BEB1A13D2698F00ADC416 /* CYStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYStoreManager.m; sourceTree = "<group>"; };
+		F82BEB1B13D2698F00ADC416 /* CYStoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYStoreController.h; sourceTree = "<group>"; };
+		F82BEB1C13D2698F00ADC416 /* CYStoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYStoreController.m; sourceTree = "<group>"; };
+		F82BEB1D13D2698F00ADC416 /* CYStoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYStoreCell.h; sourceTree = "<group>"; };
+		F82BEB1E13D2698F00ADC416 /* CYStoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYStoreCell.m; sourceTree = "<group>"; };
+		F82BEB2213D269A200ADC416 /* CYConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYConstants.h; sourceTree = "<group>"; };
+		F82BEB2313D269EF00ADC416 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F82BEB2513D26A1400ADC416 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F82BEB2913D26AD300ADC416 /* MAConfirmButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAConfirmButton.h; sourceTree = "<group>"; };
+		F82BEB2A13D26AD300ADC416 /* MAConfirmButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAConfirmButton.m; sourceTree = "<group>"; };
+		F82BEB2B13D26AD300ADC416 /* UIColor-Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-Expanded.h"; sourceTree = "<group>"; };
+		F82BEB2C13D26AD300ADC416 /* UIColor-Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Expanded.m"; sourceTree = "<group>"; };
+		F82BEB3113D26AE700ADC416 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		F82BEB3213D26AE700ADC416 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		F82BEB3313D26AE700ADC416 /* SKProduct+LocalizedPrice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKProduct+LocalizedPrice.h"; sourceTree = "<group>"; };
+		F82BEB3413D26AE700ADC416 /* SKProduct+LocalizedPrice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKProduct+LocalizedPrice.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F82BEB2613D26A1400ADC416 /* QuartzCore.framework in Frameworks */,
+				F82BEB2413D269EF00ADC416 /* StoreKit.framework in Frameworks */,
 				F82BEAF913D2697900ADC416 /* UIKit.framework in Frameworks */,
 				F82BEAFB13D2697900ADC416 /* Foundation.framework in Frameworks */,
 				F82BEAFD13D2697900ADC416 /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +75,8 @@
 		F82BEAE913D2697900ADC416 = {
 			isa = PBXGroup;
 			children = (
+				F82BEB2513D26A1400ADC416 /* QuartzCore.framework */,
+				F82BEB2313D269EF00ADC416 /* StoreKit.framework */,
 				F82BEAFE13D2697900ADC416 /* CYStoreExample */,
 				F82BEAF713D2697900ADC416 /* Frameworks */,
 				F82BEAF513D2697900ADC416 /* Products */,
@@ -79,12 +104,10 @@
 		F82BEAFE13D2697900ADC416 /* CYStoreExample */ = {
 			isa = PBXGroup;
 			children = (
+				F82BEB1813D2697F00ADC416 /* CYStoreKit */,
 				F82BEB0713D2697900ADC416 /* CYStoreExampleAppDelegate.h */,
 				F82BEB0813D2697900ADC416 /* CYStoreExampleAppDelegate.m */,
 				F82BEB0A13D2697900ADC416 /* MainWindow.xib */,
-				F82BEB0D13D2697900ADC416 /* CYStoreExampleViewController.h */,
-				F82BEB0E13D2697900ADC416 /* CYStoreExampleViewController.m */,
-				F82BEB1013D2697900ADC416 /* CYStoreExampleViewController.xib */,
 				F82BEAFF13D2697900ADC416 /* Supporting Files */,
 			);
 			path = CYStoreExample;
@@ -99,6 +122,44 @@
 				F82BEB0513D2697900ADC416 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F82BEB1813D2697F00ADC416 /* CYStoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				F82BEB2713D26A2200ADC416 /* Dependencies */,
+				F82BEB2213D269A200ADC416 /* CYConstants.h */,
+				F82BEB1913D2698F00ADC416 /* CYStoreManager.h */,
+				F82BEB1A13D2698F00ADC416 /* CYStoreManager.m */,
+				F82BEB1B13D2698F00ADC416 /* CYStoreController.h */,
+				F82BEB1C13D2698F00ADC416 /* CYStoreController.m */,
+				F82BEB1D13D2698F00ADC416 /* CYStoreCell.h */,
+				F82BEB1E13D2698F00ADC416 /* CYStoreCell.m */,
+			);
+			name = CYStoreKit;
+			sourceTree = "<group>";
+		};
+		F82BEB2713D26A2200ADC416 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				F82BEB3113D26AE700ADC416 /* UIColor+HexString.h */,
+				F82BEB3213D26AE700ADC416 /* UIColor+HexString.m */,
+				F82BEB3313D26AE700ADC416 /* SKProduct+LocalizedPrice.h */,
+				F82BEB3413D26AE700ADC416 /* SKProduct+LocalizedPrice.m */,
+				F82BEB2813D26AC100ADC416 /* MAConfirmButton */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		F82BEB2813D26AC100ADC416 /* MAConfirmButton */ = {
+			isa = PBXGroup;
+			children = (
+				F82BEB2913D26AD300ADC416 /* MAConfirmButton.h */,
+				F82BEB2A13D26AD300ADC416 /* MAConfirmButton.m */,
+				F82BEB2B13D26AD300ADC416 /* UIColor-Expanded.h */,
+				F82BEB2C13D26AD300ADC416 /* UIColor-Expanded.m */,
+			);
+			name = MAConfirmButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +211,6 @@
 			files = (
 				F82BEB0313D2697900ADC416 /* InfoPlist.strings in Resources */,
 				F82BEB0C13D2697900ADC416 /* MainWindow.xib in Resources */,
-				F82BEB1213D2697900ADC416 /* CYStoreExampleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +223,13 @@
 			files = (
 				F82BEB0613D2697900ADC416 /* main.m in Sources */,
 				F82BEB0913D2697900ADC416 /* CYStoreExampleAppDelegate.m in Sources */,
-				F82BEB0F13D2697900ADC416 /* CYStoreExampleViewController.m in Sources */,
+				F82BEB1F13D2698F00ADC416 /* CYStoreManager.m in Sources */,
+				F82BEB2013D2698F00ADC416 /* CYStoreController.m in Sources */,
+				F82BEB2113D2698F00ADC416 /* CYStoreCell.m in Sources */,
+				F82BEB2D13D26AD300ADC416 /* MAConfirmButton.m in Sources */,
+				F82BEB2E13D26AD300ADC416 /* UIColor-Expanded.m in Sources */,
+				F82BEB3613D26AE700ADC416 /* UIColor+HexString.m in Sources */,
+				F82BEB3713D26AE700ADC416 /* SKProduct+LocalizedPrice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,14 +250,6 @@
 				F82BEB0B13D2697900ADC416 /* en */,
 			);
 			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		F82BEB1013D2697900ADC416 /* CYStoreExampleViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F82BEB1113D2697900ADC416 /* en */,
-			);
-			name = CYStoreExampleViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
